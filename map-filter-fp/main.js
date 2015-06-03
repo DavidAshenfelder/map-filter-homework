@@ -76,4 +76,6 @@ _.times(100, function() {
     return _.contains(obj, "i_did")
   })
 
-  var whoMadeLength = whoMade.length 
+  var whoMadeLength = whoMade.length
+
+  document.querySelector("#answer6").innerHTML=whoMadeLength
